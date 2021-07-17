@@ -9,7 +9,7 @@ def create(arr):
     if arr:
         root = Node(arr[0])
         add(root,arr,0)
-        add(root,arr,0)
+        #add(root,arr,0)
         return root
 
 def inorder(root):
